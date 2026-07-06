@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>2026 歐洲旅行規劃</title>
+<style>
+body{font-family:Arial,'Noto Sans TC',sans-serif;background:#f5f5f5;color:#222;margin:24px;line-height:1.55}
+.container{display:flex;gap:30px;align-items:flex-start}
+.left{flex:2;min-width:0}
+.right{width:380px;position:sticky;top:20px}
+h1,h2,h3{color:#1f4e79}
+table{border-collapse:collapse;width:100%;margin-bottom:24px;background:white}
+th,td{border:1px solid #ccc;padding:9px;vertical-align:top}
+th{background:#1f4e79;color:white}
+.done{color:#138000;font-weight:bold}
+.todo{color:#d97706;font-weight:bold}
+.warn{color:#b91c1c;font-weight:bold}
+.money{font-weight:bold;color:#7c2d12}
+.cal th,.cal td{text-align:center;padding:6px;width:14%;height:50px;font-size:13px}
+.cal span{font-size:11px;color:#333}
+.range{background:#cde8ff}
+.note{background:#eef6ff;padding:14px;border-left:5px solid #1f4e79;margin-bottom:22px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="left">
+<h1>2026 歐洲旅行規劃</h1>
+
+<h2>已完成訂票 / 預訂</h2>
+<table>
+<tr><th>項目</th><th>狀態</th><th>付款 / 稅金備註</th></tr>
+<tr><td>7/16 台北 → 倫敦 Heathrow</td><td class="done">✓ 已購買</td><td>—</td></tr>
+<tr><td>7/19–7/21 倫敦 Astor 住宿</td><td class="done">✓ 已預訂；不可退款</td><td class="warn">額外金額確認中</td></tr>
+<tr><td>7/21 倫敦 → 巴黎 Orly</td><td class="done">✓ 已購買</td><td>—</td></tr>
+<tr><td>7/24–7/27 柏林住宿</td><td class="done">✓ 已預訂</td><td>7/20 扣款；需於飯店額外付款 <span class="money">€6.60 現金</span></td></tr>
+<tr><td>8/12–8/19 馬爾他住宿</td><td class="done">✓ 已預訂</td><td>8/5 扣款；需於飯店額外付款 <span class="money">€10.50</span></td></tr>
+<tr><td>8/19 馬爾他 → 台北</td><td class="done">✓ 已購買</td><td>—</td></tr>
+</table>
+
+<h2>住宿與付款提醒</h2>
+<table>
+<tr><th>地點</th><th>入住日期</th><th>取消 / 扣款</th><th>現場付款</th><th>提醒</th></tr>
+<tr><td>倫敦 Astor</td><td>7/19–7/21</td><td class="warn">不可退款</td><td class="warn">額外金額確認中</td><td>已鎖定，不再作為彈性住宿。</td></tr>
+<tr><td>柏林</td><td>7/24–7/27</td><td>7/20 扣款</td><td><span class="money">€6.60 現金</span></td><td>7/20 前再次確認是否保留。</td></tr>
+<tr><td>馬爾他</td><td>8/12–8/19</td><td>8/5 扣款</td><td><span class="money">€10.50</span></td><td>8/5 前最後確認住宿與行程銜接。</td></tr>
+</table>
+
+<h2>目前旅行規劃</h2>
+<table>
+<tr><th>日期</th><th>地點</th><th>備註</th></tr>
+<tr><td>7/16–7/19</td><td>倫敦（Battersea）</td><td>朋友家</td></tr>
+<tr><td>7/19–7/21</td><td>倫敦（Astor）</td><td>已訂；不可退款</td></tr>
+<tr><td>7/21–7/24</td><td>巴黎</td><td>倫敦→巴黎機票已購；巴黎住宿待確認</td></tr>
+<tr><td>7/24–7/27</td><td>柏林</td><td>住宿已訂；週五、週六 Techno</td></tr>
+<tr><td>7/27–8/12</td><td>義大利（暫定）</td><td>米蘭→威尼斯→佛羅倫斯→羅馬→西西里；尚可調整</td></tr>
+<tr><td>8/12–8/19</td><td>馬爾他</td><td>住宿已訂</td></tr>
+<tr><td>8/19</td><td>返台</td><td>MLA→TPE 已購</td></tr>
+</table>
+
+<h2>接下來優先處理</h2>
+<table>
+<tr><th>項目</th><th>優先度</th><th>備註</th></tr>
+<tr><td>巴黎住宿</td><td class="todo">★★★★★</td><td>7/21–7/24，建議找可免費取消或高評價青旅。</td></tr>
+<tr><td>巴黎→柏林交通</td><td class="todo">★★★★★</td><td>機票若回到可接受價格可下手；夜車日期不一定配合。</td></tr>
+<tr><td>柏林→米蘭交通</td><td class="todo">★★★★★</td><td>跨國航段，暑假波動較大。</td></tr>
+<tr><td>義大利住宿與火車</td><td class="todo">★★★☆☆</td><td>義大利段仍可彈性安排。</td></tr>
+<tr><td>羅馬→西西里、西西里→馬爾他</td><td class="todo">★★★☆☆</td><td>依西西里城市與日期再決定。</td></tr>
+</table>
+
+<div class="note"><b>旅行主軸</b><br>
+倫敦（朋友＋夜生活）→ 巴黎（經典踩點）→ 柏林（Hard Techno）→ 米蘭（時尚踩點）→ 威尼斯（水都）→ 佛羅倫斯（藝術）→ 羅馬（歷史踩點）→ 西西里（地中海）→ 馬爾他（度假收尾）。
+</div>
+</div>
+
+<div class="right">
+<h2>📅 行事曆（7/16–8/22）</h2>
+<h3>2026/07</h3><table class='cal'><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr><tr><td></td><td></td><td></td><td class=''><b>1</b><br><span></span></td><td class=''><b>2</b><br><span></span></td><td class=''><b>3</b><br><span></span></td><td class=''><b>4</b><br><span></span></td></tr><tr><td class=''><b>5</b><br><span></span></td><td class=''><b>6</b><br><span></span></td><td class=''><b>7</b><br><span></span></td><td class=''><b>8</b><br><span></span></td><td class=''><b>9</b><br><span></span></td><td class=''><b>10</b><br><span></span></td><td class=''><b>11</b><br><span></span></td></tr><tr><td class=''><b>12</b><br><span></span></td><td class=''><b>13</b><br><span></span></td><td class=''><b>14</b><br><span></span></td><td class=''><b>15</b><br><span></span></td><td class='range'><b>16</b><br><span>✈️ LHR</span></td><td class='range'><b>17</b><br><span></span></td><td class='range'><b>18</b><br><span></span></td></tr><tr><td class='range'><b>19</b><br><span>🏨 Astor</span></td><td class='range'><b>20</b><br><span>💳 Berlin</span></td><td class='range'><b>21</b><br><span>✈️ Paris</span></td><td class='range'><b>22</b><br><span></span></td><td class='range'><b>23</b><br><span></span></td><td class='range'><b>24</b><br><span>🏨 Berlin</span></td><td class='range'><b>25</b><br><span></span></td></tr><tr><td class='range'><b>26</b><br><span></span></td><td class='range'><b>27</b><br><span>Berlin out</span></td><td class='range'><b>28</b><br><span></span></td><td class='range'><b>29</b><br><span></span></td><td class='range'><b>30</b><br><span></span></td><td class='range'><b>31</b><br><span></span></td><td></td></tr></table>
+<h3>2026/08</h3><table class='cal'><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td class='range'><b>1</b><br><span></span></td></tr><tr><td class='range'><b>2</b><br><span></span></td><td class='range'><b>3</b><br><span></span></td><td class='range'><b>4</b><br><span></span></td><td class='range'><b>5</b><br><span>💳 Malta</span></td><td class='range'><b>6</b><br><span></span></td><td class='range'><b>7</b><br><span></span></td><td class='range'><b>8</b><br><span></span></td></tr><tr><td class='range'><b>9</b><br><span></span></td><td class='range'><b>10</b><br><span></span></td><td class='range'><b>11</b><br><span></span></td><td class='range'><b>12</b><br><span>🏨 Malta</span></td><td class='range'><b>13</b><br><span></span></td><td class='range'><b>14</b><br><span></span></td><td class='range'><b>15</b><br><span></span></td></tr><tr><td class='range'><b>16</b><br><span></span></td><td class='range'><b>17</b><br><span></span></td><td class='range'><b>18</b><br><span></span></td><td class='range'><b>19</b><br><span>✈️ TPE</span></td><td class='range'><b>20</b><br><span></span></td><td class='range'><b>21</b><br><span></span></td><td class='range'><b>22</b><br><span></span></td></tr><tr><td class=''><b>23</b><br><span></span></td><td class=''><b>24</b><br><span></span></td><td class=''><b>25</b><br><span></span></td><td class=''><b>26</b><br><span></span></td><td class=''><b>27</b><br><span></span></td><td class=''><b>28</b><br><span></span></td><td class=''><b>29</b><br><span></span></td></tr><tr><td class=''><b>30</b><br><span></span></td><td class=''><b>31</b><br><span></span></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<p style="font-size:13px;color:#555;">藍色區域：旅行期間參考範圍；日期內小字為已知重點。</p>
+</div>
+</div>
+</body>
+</html>

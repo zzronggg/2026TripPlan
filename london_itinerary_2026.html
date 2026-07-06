@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>倫敦行程規劃 2026</title>
+<style>
+  :root{
+    --bg:#f7f6f3;
+    --card:#ffffff;
+    --text:#1f2430;
+    --muted:#6f7785;
+    --line:#dedede;
+    --accent:#19324d;
+    --accent-2:#d7e4ee;
+    --green:#2f6f4e;
+    --green-bg:#e7f3ec;
+    --amber:#8a5a00;
+    --amber-bg:#fff3d8;
+    --red:#8d3b3b;
+    --red-bg:#f9e8e8;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+    line-height:1.65;
+  }
+  .wrap{
+    max-width:1180px;
+    margin:0 auto;
+    padding:36px 22px 56px;
+  }
+  header{
+    margin-bottom:28px;
+  }
+  h1{
+    margin:0 0 8px;
+    font-size:clamp(30px,5vw,48px);
+    letter-spacing:-0.03em;
+    color:var(--accent);
+  }
+  .subtitle{
+    color:var(--muted);
+    font-size:15px;
+  }
+  .summary{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:12px;
+    margin:22px 0 30px;
+  }
+  .summary .box{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:16px 18px;
+  }
+  .summary .label{
+    color:var(--muted);
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+  }
+  .summary .value{
+    margin-top:5px;
+    font-weight:700;
+    color:var(--accent);
+  }
+  section{
+    margin-top:34px;
+  }
+  h2{
+    margin:0 0 12px;
+    font-size:24px;
+    color:var(--accent);
+  }
+  .section-note{
+    margin:-4px 0 14px;
+    color:var(--muted);
+    font-size:14px;
+  }
+  .table-wrap{
+    overflow-x:auto;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:16px;
+    box-shadow:0 8px 22px rgba(0,0,0,.035);
+  }
+  table{
+    width:100%;
+    border-collapse:collapse;
+    min-width:860px;
+  }
+  th,td{
+    padding:14px 15px;
+    text-align:left;
+    vertical-align:top;
+    border-bottom:1px solid var(--line);
+  }
+  th{
+    background:#eef3f7;
+    color:var(--accent);
+    font-size:13px;
+    letter-spacing:.02em;
+  }
+  tr:last-child td{border-bottom:none}
+  .date{
+    font-weight:800;
+    color:var(--accent);
+    white-space:nowrap;
+  }
+  .tag{
+    display:inline-block;
+    border-radius:999px;
+    padding:3px 8px;
+    margin:2px 4px 2px 0;
+    font-size:12px;
+    font-weight:700;
+  }
+  .must{background:var(--green-bg); color:var(--green)}
+  .flex{background:var(--amber-bg); color:var(--amber)}
+  .drop{background:var(--red-bg); color:var(--red)}
+  .route{
+    color:#334;
+    font-weight:600;
+  }
+  .small{
+    color:var(--muted);
+    font-size:13px;
+  }
+  .footer-note{
+    margin-top:22px;
+    padding:16px 18px;
+    border-radius:14px;
+    background:#eef3f7;
+    color:#34495e;
+    font-size:14px;
+  }
+  @media(max-width:760px){
+    .summary{grid-template-columns:1fr}
+    .wrap{padding:24px 14px 40px}
+    th,td{padding:12px 11px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>倫敦行程規劃</h1>
+<div class="subtitle">2026/7/16 晚上抵達 ～ 7/21 15:30 從 LHR 飛往德國</div>
+</header>
+<div class="summary">
+<div class="box">
+<div class="label">住宿</div>
+<div class="value">7/16 晚～7/19 早：Battersea<br/>7/19～7/21：Hyde Park</div>
+</div>
+<div class="box">
+<div class="label">旅遊節奏</div>
+<div class="value">白天約 3 個主景點<br/>晚上可再加表演／夜生活</div>
+</div>
+<div class="box">
+<div class="label">絕對核心</div>
+<div class="value">Stonehenge、Up at The O2、Wicked、British Museum、St Paul’s、Painted Hall</div>
+</div>
+</div>
+<section>
+<h2>一、目前確定的日期行程表</h2>
+<div class="section-note">以區域順序、住宿位置與已確定優先順位整理。Cutty Sark 只看外觀；Frameless 已移除。</div>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>區域／主題</th>
+<th>確定行程</th>
+<th>晚間安排</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="date">7/16（四）</td>
+<td>Battersea</td>
+<td>
+              抵達倫敦 → 入住 Battersea
+            </td>
+<td>Battersea Power Station 河邊散步</td>
+<td class="small">不啟用 Pass。以入住、休息、熟悉附近為主。</td>
+</tr>
+<tr>
+<td class="date">7/17（五）</td>
+<td>Greenwich ＋ O2</td>
+<td>
+<span class="tag must">必去</span>泰晤士河 24 小時遊船<br/>
+              Cutty Sark 外觀<br/>
+<span class="tag must">必去</span>Painted Hall<br/>
+              Royal Observatory Greenwich<br/>
+<span class="tag must">必去</span>Up at The O2
+            </td>
+<td>
+              傍晚 London Cable Car
+            </td>
+<td class="small">
+              目前採完整 B 版。<br/>
+              路線：市中心搭船 → Greenwich → O2 → 纜車。<br/>
+              Cutty Sark 不入內，節省時間。
+            </td>
+</tr>
+<tr>
+<td class="date">7/18（六）</td>
+<td>Battersea → City → Tower</td>
+<td>
+              Lift 109<br/>
+<span class="tag must">必去</span>St Paul’s Cathedral<br/>
+              Tower of London<br/>
+              Tower Bridge
+            </td>
+<td>
+<span class="tag must">保留</span>Soho Comedy Factory 21:00<br/>
+              夜店
+            </td>
+<td class="small">
+              星期日不能安排教堂，因此 St Paul’s 固定放這天。<br/>
+              Lift 109 利用住宿地利；Tower Bridge 可當傍晚附加。
+            </td>
+</tr>
+<tr>
+<td class="date">7/19（日）</td>
+<td>Bloomsbury → Victoria → Hyde Park</td>
+<td>
+            Battersea 退房<br/>
+            Victoria 附近寄行李<br/>
+<span class="tag must">已預約 10:30</span> British Museum<br/>
+<span class="tag must">必去</span> Wicked 14:30
+            </td>
+<td>
+            約 17:15 回 Victoria 取行李<br/>
+            傍晚～晚上集中吃喝／逛 Soho、West End<br/>
+            晚一點再前往 Hyde Park 飯店入住
+            </td>
+<td class="small">
+<span class="small">
+            採方案 A：早上不先繞去 Hyde Park 飯店。<br/>
+            行李早上寄放，Wicked 後取出；不急著入住，先把傍晚與晚間留給餐飲與夜生活。
+            </span>
+</td>
+</tr>
+<tr>
+<td class="date">7/20（一）</td>
+<td>Stonehenge</td>
+<td>
+<span class="tag must">必去</span>Stonehenge Day
+            </td>
+<td>
+            回倫敦後集中補吃前幾天沒吃到的 Pass 餐飲<br/>
+            酒吧／自由夜生活
+            </td>
+<td class="small">
+<span class="small">
+            不安排 British Museum。<br/>
+            接受把白天完整留給巨石陣；晚上只承擔餐飲補漏與自由活動。
+            </span>
+</td>
+</tr>
+<tr>
+<td class="date">7/21（二）</td>
+<td>Hyde Park → LHR</td>
+<td>
+              早餐／附近散步<br/>
+              收行李後前往機場
+            </td>
+<td>15:30 LHR 飛往德國</td>
+<td class="small">
+              不安排大英博物館，不增加離境日風險。
+            </td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2>二、與目前行程順路的餐飲</h2>
+<div class="section-note">7/19、7/20 晚上正式作為餐飲集中／補漏時段；每次抓最多約 1 小時。</div>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>餐飲／體驗</th>
+<th>建議時段</th>
+<th>順路程度</th>
+<th>安排方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="date">7/17</td>
+<td>The Moby Dick 英式派＋啤酒</td>
+<td>傍晚／纜車前後</td>
+<td><span class="tag must">高</span></td>
+<td class="small"><span class="small">7/17 主候選；若因 O2／纜車時段沒吃到，不特地跨城補。</span></td>
+</tr>
+<tr>
+<td class="date">7/17</td>
+<td>Chocolate Cocktail Club</td>
+<td>7/17 晚間</td>
+<td><span class="tag flex">中</span></td>
+<td class="small"><span class="small">7/17 晚間候補；若 Greenwich／O2 結束得早再去。</span></td>
+</tr>
+<tr>
+<td class="date">7/18</td>
+<td>Brick Lane 印度咖哩體驗</td>
+<td>St Paul’s 後午餐最理想</td>
+<td><span class="tag must">高</span></td>
+<td class="small">與 City／Tower 日最匹配。</td>
+</tr>
+<tr>
+<td class="date">7/19</td>
+<td>Bill’s Soho 英式早餐</td>
+<td>約 09:00，British Museum 前</td>
+<td><span class="tag must">高</span></td>
+<td class="small"><span class="small">配合 10:30 大英博物館預約；建議提早吃，不宜拖太久。</span></td>
+</tr>
+<tr>
+<td class="date">7/19</td>
+<td>Burger &amp; Lobster Soho</td>
+<td>Wicked 後、取行李後</td>
+<td><span class="tag must">高</span></td>
+<td class="small"><span class="small">7/19 晚上第一順位；吃完可繼續酒吧／夜生活，再晚點入住。</span></td>
+</tr>
+<tr>
+<td class="date">7/19</td>
+<td>Huffkins Oxford Street 下午茶</td>
+<td>傍晚前後，視可訂時段</td>
+<td><span class="tag flex">中高</span></td>
+<td class="small"><span class="small">可作 7/19 餐飲集中日的第二梯次；若時段不理想就放棄。</span></td>
+</tr>
+<tr>
+<td class="date">7/19</td>
+<td>Top Hat Cocktail</td>
+<td>下午／傍晚早段</td>
+<td><span class="tag flex">中高</span></td>
+<td class="small"><span class="small">只在兌換截止前順路喝，不為它單獨繞路。</span></td>
+</tr>
+<tr>
+<td class="date">7/19 或 7/20</td>
+<td>Seashell of Lisson Grove 炸魚薯條</td>
+<td>7/19 白天／7/20 回城後若來得及</td>
+<td><span class="tag flex">中高</span></td>
+<td class="small"><span class="small">搬到 Hyde Park 後較順；優先當 7/19 或 7/20 的補位餐。</span></td>
+</tr>
+<tr>
+<td class="date">未固定</td>
+<td>Fuller’s Brewery Tour</td>
+<td>需整段時間</td>
+<td><span class="tag drop">低</span></td>
+<td class="small">位置與時長都不符合目前主線，維持低優先。</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2>三、已取捨掉的內容</h2>
+<div class="section-note">包含正式移除、降為低優先、或只保留外觀的項目。</div>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>目前狀態</th>
+<th>取捨原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frameless – Immersive Art</td>
+<td><span class="tag drop">移除</span></td>
+<td class="small">藝術量已足夠，而且不是最喜歡的藝術類型。</td>
+</tr>
+<tr>
+<td>The Shard</td>
+<td><span class="tag drop">移除</span></td>
+<td class="small">與其他高處／城市景觀體驗重複。</td>
+</tr>
+<tr>
+<td>Blenheim Palace</td>
+<td><span class="tag drop">移除</span></td>
+<td class="small">已有 Stonehenge 占用遠郊大日；宮殿類不需太多。</td>
+</tr>
+<tr>
+<td>Jason’s Original Canal Boat</td>
+<td><span class="tag drop">可刪</span></td>
+<td class="small">和泰晤士河遊船同屬船遊體驗，現階段不優先。</td>
+</tr>
+<tr>
+<td>Shakespeare’s Globe Tour</td>
+<td><span class="tag drop">低優先</span></td>
+<td class="small">不是目前六大必去，且難在四天內自然插入。</td>
+</tr>
+<tr>
+<td>London Eye</td>
+<td><span class="tag drop">可放棄</span></td>
+<td class="small">高處與城市景觀體驗已足夠，非核心必去。</td>
+</tr>
+<tr>
+<td>Royal Albert Hall</td>
+<td><span class="tag flex">條件式保留</span></td>
+<td class="small">只有傍晚時段才值得；否則放棄。</td>
+</tr>
+<tr>
+<td>Cutty Sark 內部參觀</td>
+<td><span class="tag drop">不入內</span></td>
+<td class="small">保留外觀即可，將時間留給 Painted Hall、Observatory 與 O2。</td>
+</tr>
+<tr>
+<td>Fuller’s Brewery Tour</td>
+<td><span class="tag drop">低優先</span></td>
+<td class="small">需要完整時段，且不符合目前順路原則。</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<div class="footer-note">
+    目前最核心的四天結構為：
+    <strong>7/17 Greenwich＋O2、7/18 City＋Tower＋Comedy、7/19 British Museum 10:30＋Wicked＋餐飲集中、7/20 Stonehenge＋晚間餐飲補漏。</strong>
+</div>
+</div>
+</body>
+</html>
